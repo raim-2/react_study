@@ -34,6 +34,8 @@ dependencies {
 	testCompileOnly 'org.projectlombok:lombok'
 	testAnnotationProcessor 'org.projectlombok:lombok'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	//dto-엔티티 처리를 수월하게 할 수 있는 ModelMapper
+	implementation 'org.modelmapper:modelmapper:3.1.1'
 	// testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
 }
 
